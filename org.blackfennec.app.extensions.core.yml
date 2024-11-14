@@ -1,8 +1,8 @@
 id: org.blackfennec.app.extensions.core
-branch: '0.11'
+branch: '0.12'
 runtime: org.blackfennec.app
 runtime-version: 'stable'
-sdk: org.gnome.Sdk//43
+sdk: org.gnome.Sdk//47
 build-extension: true
 modules:
   - name: blackfennec.app.extensions.core
@@ -12,6 +12,6 @@ modules:
       - install -Dm644 ./org.blackfennec.app.extensions.core.metainfo.xml ${FLATPAK_DEST}/share/metainfo/org.blackfennec.app.extensions.core.metainfo.xml
     sources:
       - type: git
-        url: https://gitlab.ost.ch/blackfennec/extensions/core.git
-        tag: v0.11.0
-        commit: 0b8c0f91ece47985b6b21c4d389e4a414f77169e
+        url: https://git.yodabyte.ch/blackfennec/extensions/core.git
+        tag: v0.12.0
+        commit: 637934c07abe92b08ee62bd7f61e274b62ea87e4
